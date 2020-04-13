@@ -72,6 +72,16 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'tutoriapp.wsgi.application'
 
+# ASGI_APPLICATION = "tutoriapp.routing.application"
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": [("localhost", 6379)],
+        },
+    },
+}
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
