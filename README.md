@@ -21,3 +21,9 @@ The following commands can be used to test services.
     ```
     celery -A tutoriapp worker -l info
     ```
+
+## Angular Update Version 9
+Run on command line
+```
+ng update @angular/cli @angular/core
+```
