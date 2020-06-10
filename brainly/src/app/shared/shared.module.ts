@@ -17,10 +17,10 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
         PageNotFoundComponent,
     ],
     exports: [
-       // Todo lo que modulo Shared contiene pero para que los otros modulos puedan utilizarlo
+        // Todo lo que modulo Shared contiene pero para que los otros modulos puedan utilizarlo
         // Directives
         // Pipes
-        // Services
+        // Services*
         // Componentes
         PageNotFoundComponent,
     ],
@@ -29,4 +29,4 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
         RouterModule
     ]
 })
-export class SharedModule {}
+export class SharedModule { }

@@ -1,0 +1,88 @@
+.side-menu{
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 15em;
+  padding: 1em;
+  letter-spacing: 0.02em;
+}
+
+.user-details{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  padding: 1em 0;
+
+  p{
+    margin-bottom: 0;
+  }
+
+  .user-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #323232;
+    margin-bottom: 1.5em;
+  }
+
+  .user-name{
+    color: #565656;
+    font-size: 1em;
+  }
+
+  .user-type{
+    color: #777777;
+    font-size: .9em;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+}
+
+
+.lessons{
+  padding: 1em 0;
+
+  .lesson-details{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+    padding: 5px 0;
+    align-items: center;
+
+    p{
+      margin-bottom: 0;
+    }
+
+    .lesson-color{
+      background-color: #84D7A5;
+      width: 30px;
+      height: 40px;
+      border-radius: 5px;
+      padding: 0 5px;
+
+      box-shadow: 0px 1.27567px 1.59459px rgba(165, 165, 165, 0.0167767), 0px 2.89843px 3.62304px rgba(165, 165, 165, 0.0243888), 0px 5.04459px 6.30574px rgba(165, 165, 165, 0.0300374), 0px 8.01379px 10.0172px rgba(165, 165, 165, 0.035), 0px 12.3647px 15.4559px rgba(165, 165, 165, 0.0399626), 0px 19.2941px 24.1177px rgba(165, 165, 165, 0.0456112), 0px 32.0312px 40.0391px rgba(165, 165, 165, 0.0532233), 0px 64px 80px rgba(165, 165, 165, 0.07);
+    }
+
+    .lesson-info{
+      padding: 0 10px;
+
+      .lesson-subject{
+        color: #565656;
+        font-size: .9em;
+      }
+
+      .lesson-hour{
+        color: #919191;
+        font-size: .8em;
+      }
+    }
+
+  }
+
+}
+

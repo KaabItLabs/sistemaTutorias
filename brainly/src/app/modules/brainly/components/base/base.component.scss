@@ -1,0 +1,52 @@
+.main-container{
+  font-family: "Lato";
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F6F6F6;
+}
+
+
+a,
+button{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p,
+a,
+span{
+  margin-bottom: 0;
+  letter-spacing: 0.02em;
+}
+
+a:hover{
+  text-decoration: none;
+  background-color: blue !important;
+}
+
+
+.brainly-container{
+  margin: 0em 16em;
+  width: calc(100% - 33em);
+  min-height: 100vh;
+  padding: 2em;
+}
+
+.header{
+  color:  #565656;
+  letter-spacing: 0.02em;
+  padding: 0 10px;
+
+  p{
+    padding: 0;
+  }
+
+  .today-date{
+    text-align: right;
+  }
+
+}
+
+.content{
+  margin-top: 3em;
+}
